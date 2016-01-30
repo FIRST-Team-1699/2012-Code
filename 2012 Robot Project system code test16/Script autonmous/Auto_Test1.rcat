@@ -1,0 +1,31 @@
+#Auto_Test1.rcat
+#Move forward for three seconds and shoot two balls
+#then move back to starting point
+#wait 250ms alow Auto to start
+WAIT 250
+#First 
+#Go forward for three seconds at 1/2 speed
+DRIVE_TIME 3.0 .50
+
+#wait 250ms
+WAIT 250
+
+#Shoot ball at 65% powwer
+SHOOTER 4 .650
+
+#wait a little bit
+WAIT 250
+
+#Shoot ball at 65% powwer
+SHOOTER 4 .650
+
+#wait a little bit
+WAIT 250
+
+#Go backward for three second
+DRIVE_TIME 3.0 -.50
+
+#Stop and wait for tele-op
+STOP
+
+#EOF
